@@ -811,7 +811,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 
 .modal-form-icon {
     position: absolute;
-    top: 11px;
+    top: 8px;
     left: 16px;
 }
 .modal-form-comment {
@@ -856,12 +856,13 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: 14px;
 transition: background-color var(--anim), border-color var(--anim);
+
 }
 
 .modal-form-checkbox:checked {
 background-color: var(--ocean);
 border-color: var(--ocean);
-
+background-image: url(../images/Vector\ \(2\).svg);
 }
 
 .modal-form-desc {
