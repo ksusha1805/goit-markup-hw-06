@@ -227,13 +227,14 @@
     </div>
     <div class="footer-subscribe">
         <p class="footer-p">Subscribe</p>
-        <label class="footer-label"></label>
-            <input  class="footer-input" type="email" name="user_email" placeholder="Email">
+        <form class="submit-form" name="submit_form">
+            <input  class="footer-input" type="email" name="submit_form" placeholder="Email" required>
             <button class="footer-subs-btn btn" type="submit">Subscribe
+                <svg class="footer-subs-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-Frame-telegram"></use>
+                </svg>
             </button>
-            <svg class="footer-subs-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-Frame-telegram"></use>
-            </svg>
+        </form>
     
     </div>
     

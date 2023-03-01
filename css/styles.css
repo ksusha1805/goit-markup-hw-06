@@ -655,52 +655,61 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+
 }
 
 .footer-p {
     margin-bottom: 16px;
 }
-.footer-label {
+
+.submit-form{
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 
 .footer-input{
-    width: 264px;
-    height: 40px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
-background-color: var(--navy-blue);
-letter-spacing: 0.04em;
-color: rgba(255, 255, 255, 0.6);
-padding-left: 24px;
-margin-right: 24px;
+    border-radius: 4px;
+    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.15));
+    background-color: transparent;
+    padding: 8px 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #fff;
+    width: 264px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-subs-btn {
-    width: 165px;
-    height: 40px;
-    border: none;
-    cursor: pointer;
-    background: var(--iris);
-    border-radius: 4px;
+    padding: 8px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-position: absolute;
-padding: 8px 64px 8px 24px;
-transition: background-color var(--anim);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: var(--iris);
+    border-radius: 4px;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-subs-btn:hover, .footer-subs-btn:focus{
     background-color: var(--ocean);
 }
 .footer-subs-icon {
-    fill: var(--white);
-    position: relative;
-    top: 8px;
-    left: 117px;
+    width: 24px;
+    height: 20px;
+    fill: #fff;
 }
 
 
@@ -821,8 +830,7 @@ font-size: 12px;
 line-height: 1.3;
 letter-spacing: 0.04em;
 color: rgba(117, 117, 117, 0.5);
-padding-top: 8px;
-padding-left: 16px;
+padding: 8px 16px;
 border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: 2px solid transparent;
@@ -841,6 +849,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
     justify-content: center;
     gap: 8px;
     margin-bottom: 24px;
+    padding-top: 16px;
 }
 
 .modal-form-checkbox {
